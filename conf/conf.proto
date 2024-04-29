@@ -6,9 +6,14 @@ option go_package = "backup-client/internal/conf;conf";
 import "google/protobuf/duration.proto";
 
 message Bootstrap {
+  string name = 4;
   Server server = 1;
   Data data = 2;
+  Registry registry = 3;
+  Log log = 5;
 }
+
+
 
 message Server {
   message HTTP {
@@ -23,19 +28,26 @@ message Server {
   }
   HTTP http = 1;
   GRPC grpc = 2;
+
 }
 
+message Registry {
+  repeated string etcd = 1;
+  string etcdUserName = 2;
+  string etcdPassword = 3;
+  string grpcServer = 4;
+  string httpServer = 5;
+  int64 maxRetry = 6;
+}
+
+message Log {
+  string level = 1;
+  string filename = 2;
+  int64 maxSize = 3;
+  int64 maxAge = 4;
+  int64 maxBackups = 5;
+}
+
+
 message Data {
-  message Database {
-    string driver = 1;
-    string source = 2;
-  }
-  message Redis {
-    string network = 1;
-    string addr = 2;
-    google.protobuf.Duration read_timeout = 3;
-    google.protobuf.Duration write_timeout = 4;
-  }
-  Database database = 1;
-  Redis redis = 2;
 }

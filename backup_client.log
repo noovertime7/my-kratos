@@ -1,0 +1,47 @@
+{"level":"info","time":"2024-04-29T13:53:53.254+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:53:53+08:00","caller":"server/register.go:22","service.version":"","traceID":"","spanID":"","msg":"etcd registration successful"}
+{"level":"info","time":"2024-04-29T13:53:53.254+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:53:53+08:00","caller":"http/server.go:329","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server listening on: [::]:8000"}
+{"level":"info","time":"2024-04-29T13:53:53.255+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:53:53+08:00","caller":"grpc/server.go:212","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server listening on: [::]:9000"}
+{"level":"info","time":"2024-04-29T13:54:41.949+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:54:41+08:00","caller":"http/server.go:344","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server stopping"}
+{"level":"info","time":"2024-04-29T13:54:41.949+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:54:41+08:00","caller":"grpc/server.go:224","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server stopping"}
+{"level":"info","time":"2024-04-29T13:54:41.950+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:54:41+08:00","caller":"data/data.go:20","service.version":"","traceID":"","spanID":"","msg":"closing the data resources"}
+{"level":"info","time":"2024-04-29T13:54:44.415+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:54:44+08:00","service.version":"","traceID":"","spanID":"","msg":"etcd registration successful"}
+{"level":"info","time":"2024-04-29T13:54:44.416+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:54:44+08:00","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server listening on: [::]:8000"}
+{"level":"info","time":"2024-04-29T13:54:44.416+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T13:54:44+08:00","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server listening on: [::]:9000"}
+{"level":"info","time":"2024-04-29T14:11:45.383+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:11:45+08:00","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server stopping"}
+{"level":"info","time":"2024-04-29T14:11:45.383+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:11:45+08:00","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server stopping"}
+{"level":"info","time":"2024-04-29T14:11:45.383+0800","caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:11:45+08:00","service.version":"","traceID":"","spanID":"","msg":"closing the data resources"}
+{"level":"info","ts":1714371108.104256,"caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:11:48+08:00","caller":"server/register.go:22","service.version":"","traceID":"","spanID":"","msg":"etcd registration successful"}
+{"level":"info","ts":1714371108.104768,"caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:11:48+08:00","caller":"http/server.go:329","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server listening on: [::]:8000"}
+{"level":"info","ts":1714371108.104931,"caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:11:48+08:00","caller":"grpc/server.go:212","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server listening on: [::]:9000"}
+{"level":"info","ts":1714371240.911333,"caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:14:00+08:00","caller":"http/server.go:344","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server stopping"}
+{"level":"info","ts":1714371240.911432,"caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:14:00+08:00","caller":"grpc/server.go:224","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server stopping"}
+{"level":"info","ts":1714371240.911477,"caller":"logger/zap.go:35","msg":"","ts":"2024-04-29T14:14:00+08:00","caller":"data/data.go:20","service.version":"","traceID":"","spanID":"","msg":"closing the data resources"}
+{"level":"info","time":"2024-04-29T14:14:03.657+0800","caller":"logger/zap.go:35","msg":"","caller":"server/register.go:22","service.version":"","traceID":"","spanID":"","msg":"etcd registration successful"}
+{"level":"info","time":"2024-04-29T14:14:03.657+0800","caller":"logger/zap.go:35","msg":"","caller":"grpc/server.go:212","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server listening on: [::]:9000"}
+{"level":"info","time":"2024-04-29T14:14:03.657+0800","caller":"logger/zap.go:35","msg":"","caller":"http/server.go:329","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server listening on: [::]:8000"}
+{"level":"info","time":"2024-04-29T14:15:52.506+0800","caller":"logger/zap.go:35","msg":"","caller":"http/server.go:344","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server stopping"}
+{"level":"info","time":"2024-04-29T14:15:52.507+0800","caller":"logger/zap.go:35","msg":"","caller":"grpc/server.go:224","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server stopping"}
+{"level":"info","time":"2024-04-29T14:15:52.507+0800","caller":"logger/zap.go:35","msg":"","caller":"data/data.go:20","service.version":"","traceID":"","spanID":"","msg":"closing the data resources"}
+{"level":"info","time":"2024-04-29T14:15:52.507+0800","caller":"logger/zap.go:35","msg":"","caller":"config/config.go:67","service.version":"","traceID":"","spanID":"","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","time":"2024-04-29 14:15:55","caller":"logger/zap.go:35","msg":"","caller":"server/register.go:22","service.version":"","traceID":"","spanID":"","msg":"etcd registration successful"}
+{"level":"info","time":"2024-04-29 14:15:55","caller":"logger/zap.go:35","msg":"","caller":"http/server.go:329","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server listening on: [::]:8000"}
+{"level":"info","time":"2024-04-29 14:15:55","caller":"logger/zap.go:35","msg":"","caller":"grpc/server.go:212","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server listening on: [::]:9000"}
+{"level":"info","time":"2024-04-29 14:16:11","caller":"logger/zap.go:35","msg":"","caller":"http/server.go:344","service.version":"","traceID":"","spanID":"","msg":"[HTTP] server stopping"}
+{"level":"info","time":"2024-04-29 14:16:11","caller":"logger/zap.go:35","msg":"","caller":"grpc/server.go:224","service.version":"","traceID":"","spanID":"","msg":"[gRPC] server stopping"}
+{"level":"info","time":"2024-04-29 14:16:11","caller":"logger/zap.go:35","msg":"","caller":"data/data.go:20","service.version":"","traceID":"","spanID":"","msg":"closing the data resources"}
+{"level":"info","time":"2024-04-29 14:16:13","caller":"logger/zap.go:35","msg":"","caller":"server/register.go:22","msg":"etcd registration successful"}
+{"level":"info","time":"2024-04-29 14:16:13","caller":"logger/zap.go:35","msg":"","caller":"grpc/server.go:212","msg":"[gRPC] server listening on: [::]:9000"}
+{"level":"info","time":"2024-04-29 14:16:13","caller":"logger/zap.go:35","msg":"","caller":"http/server.go:329","msg":"[HTTP] server listening on: [::]:8000"}
+{"level":"info","time":"2024-04-29 14:18:07","caller":"logger/zap.go:35","msg":"","caller":"http/server.go:344","msg":"[HTTP] server stopping"}
+{"level":"info","time":"2024-04-29 14:18:07","caller":"logger/zap.go:35","msg":"","caller":"grpc/server.go:224","msg":"[gRPC] server stopping"}
+{"level":"info","time":"2024-04-29 14:18:07","caller":"logger/zap.go:35","msg":"","caller":"data/data.go:20","msg":"closing the data resources"}
+{"level":"info","time":"2024-04-29 14:19:23","msg":"","caller":"server/register.go:22","msg":"etcd registration successful"}
+{"level":"info","time":"2024-04-29 14:19:23","msg":"","caller":"http/server.go:329","msg":"[HTTP] server listening on: [::]:8000"}
+{"level":"info","time":"2024-04-29 14:19:23","msg":"","caller":"grpc/server.go:212","msg":"[gRPC] server listening on: [::]:9000"}
+{"level":"info","time":"2024-04-29 14:20:39","msg":"","caller":"http/server.go:344","msg":"[HTTP] server stopping"}
+{"level":"info","time":"2024-04-29 14:20:39","msg":"","caller":"grpc/server.go:224","msg":"[gRPC] server stopping"}
+{"level":"info","time":"2024-04-29 14:20:39","msg":"","caller":"data/data.go:20","msg":"closing the data resources"}
+{"level":"info","time":"2024-04-29 14:20:39","msg":"","caller":"config/config.go:67","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","time":"2024-04-29 14:20:42","caller":"server/register.go:22","msg":"etcd registration successful"}
+{"level":"info","time":"2024-04-29 14:20:42","caller":"grpc/server.go:212","msg":"[gRPC] server listening on: [::]:9000"}
+{"level":"info","time":"2024-04-29 14:20:42","caller":"http/server.go:329","msg":"[HTTP] server listening on: [::]:8000"}

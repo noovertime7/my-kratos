@@ -28,10 +28,10 @@ init:
 .PHONY: config
 # generate internal proto
 config:
-	protoc --proto_path=./internal \
+	protoc  --proto_path=./conf \
 	       --proto_path=./third_party \
- 	       --go_out=paths=source_relative:./internal \
-	       $(INTERNAL_PROTO_FILES)
+ 	       --go_out=paths=source_relative:./conf \
+	       ./conf/conf.proto
 
 .PHONY: api
 # generate api proto
@@ -48,6 +48,9 @@ api:
 # build
 build:
 	mkdir -p bin/ && go build -ldflags "-X main.Version=$(VERSION)" -o ./bin/ ./...
+wire:
+	cd cmd/backup-client && wire
+
 
 .PHONY: generate
 # generate

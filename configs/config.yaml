@@ -1,3 +1,4 @@
+name: "local"
 server:
   http:
     addr: 0.0.0.0:8000
@@ -5,11 +6,17 @@ server:
   grpc:
     addr: 0.0.0.0:9000
     timeout: 1s
-data:
-  database:
-    driver: mysql
-    source: root:root@tcp(127.0.0.1:3306)/test?parseTime=True&loc=Local
-  redis:
-    addr: 127.0.0.1:6379
-    read_timeout: 0.2s
-    write_timeout: 0.2s
+data: {}
+registry:
+  etcd: [ "192.168.11.207:2379" ]
+  maxRetry: 10
+  etcdUserName: root
+  etcdPassword: 3s4d5cvybnm3AS4gyi5F6G7H8J
+  grpcServer: "10.20.10.183:9000"
+  httpServer: "10.20.10.183:8000"
+log:
+  level: "debug"   ## 日志等级
+  filename: "backup_client.log"  # 日志文件位置
+  maxSize: 200    # 日志文件最大大小(MB)
+  maxAge: 30      # 保留旧日志文件的最大天数
+  maxBackups: 7   # 最大保留日志个数
